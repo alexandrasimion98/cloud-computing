@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>REST Countries API</title>
+    <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1>REST Countries API</h1>
+        <div id="main-container">
+            <div id="flag-container">
+                <img src="" alt="">
+        </div>
+        <div id="info-container">
+            <select id="countries">
+            </select>
+            <p>Capital: <span id="capital"></span></p>
+            <p>Dialing Code: <span id="dialing-code"></span></p>
+            <p>Population: <span id="population"></span></p>
+            <p>Currencies: <span id="currencies"></span></p>
+            <p>Region: <span id="region"></span></p>
+            <p>Subregion: <span id="subregion"></span></p>
+        </div>
+        </div>
+        <section align="center">
+            <button type="button" style="background-color:grey;" onClick="myFunction()">Latest COVID19 Statistics</button>
+        </section>
+        <script type="module" src="./js/main.js"></script>
+        <script>
+            function myFunction(){
+                window.location="covid19Data.html";
+            }
+        </script>
+    </body>
+</html>
